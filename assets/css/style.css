@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+/* INDEX */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: black;
+}
+
+.container_home {
+    overflow: hidden;
+    background-image: url(../images/background-star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 110px);
+}
+
+.fade {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    top: 100px;
+}
+
+.homepage__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+    perspective: 400px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #feda4a;
+    font-size: 500%;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.star-wars {
+    position: relative;
+    transform-origin: 85% 100%;
+    animation: star-wars 15s linear infinite;
+}
+
+.star-wars .title {
+    font-size: 90%;
+    text-align: center;
+}
+
+.star-wars .title h1 {
+    margin: 0 0 100px;
+    text-transform: uppercase;
+}
+
+@keyframes star-wars {
+    0% {
+        top: 0;
+        transform: rotateX(20deg) translateZ(0);
+    }
+
+    100% {
+        top: -4000px;
+        transform: rotateX(20deg) translateZ(-2500px);
+    }
+}

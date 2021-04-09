@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+/* PÁGINA DESTINOS */
+
+body {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: #040404;
+}
+
+.container_destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background-color: #ffebb808;
+}
+
+.box_destination {
+    position: relative;
+    margin: 100px 20px 0 20px;
+}
+
+.box_destination_text {
+    color: white;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.box_destination img {
+    display: block;
+    height: 350px;
+    width: 200px;
+}
+
+.destination_link {
+    text-decoration: none;
+    text-shadow: 1px 0.5px #5f5e5b;
+}
+
+.container_plasma {
+    position: absolute;
+    bottom: 350px;
+    left: 90px;
+    width: 20px;
+    height: 0px;
+
+    transition: 0.5s height;
+}
+
+.box_destination img#rosa:hover~.container_plasma {
+    height: 70px;
+    background: #d69577;
+    box-shadow: 0px 0px 20px #d69577;
+}
+
+.box_destination img#azul:hover~.container_plasma {
+    height: 70px;
+    background: #1e7e70;
+    box-shadow: 0px 0px 20px #1e7e70;
+}
+
+.box_destination img#laranja:hover~.container_plasma {
+    height: 70px;
+    background: #d04528;
+    box-shadow: 0px 0px 20px #d04528;
+}

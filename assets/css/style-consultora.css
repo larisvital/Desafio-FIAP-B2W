@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+
+/* PÁGINA CONSULTORAS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: #040404;
+}
+
+.container_consultora {
+    width: 100%;
+    height: calc(100vh - 110px);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #f8db64;
+    background-color: #ffebb808;
+    text-align: justify;
+}
+
+.consultora img {
+    width: 80%;
+    height: 80%;
+    margin: 40px auto;
+}
+
+.consultora_text {
+    margin-top: 100px;
+    width: 40%;
+    display: block;
+    align-items: center;
+}
+
+.titulo_consultora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.texto_consultora {
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+
+}

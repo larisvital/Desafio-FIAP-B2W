@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+/* PÁGINA PROTOCOLOS */
+
+body {
+    background-image: url(../images/background-star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back__bordo {
+    width: 100%;
+    height: calc(100vh - 160px);
+}
+
+.box__protocolo {
+    margin: 60px auto 50px auto;
+    width: 80%;
+    height: 300px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mensagem__protocolo {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    height: 110px;
+    background-color: #343434ea;
+}
+
+h2 {
+    margin: 0 auto;
+    color: #feda4a;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0 auto;
+    color: #feda4a;
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+}
