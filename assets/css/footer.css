@@ -146,5 +146,5 @@
 .forward_info:hover {
     width: 80px;
     margin: 0 20px 0 0;
-    z-index: 10;
+    z-index: 9;
 }
